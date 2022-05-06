@@ -16,6 +16,8 @@ module.exports = {
     'no-tabs': 'off',
     'no-unused-vars': 'off',
     'no-shadow': 'off',
+    'spaced-comment': 'off',
+    'no-empty': 'off',
 
   },
     
