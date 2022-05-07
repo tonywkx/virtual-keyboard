@@ -4,22 +4,20 @@
     flex-direction: column;
     justify-content: space-around;
 }
-.title{
-    
-    color: #004134;
+.title{  
+    color: #001f41;
 }
 .use-keyboard-input{
     height: 380px;
-    width: 1280px;
+    width: 1100px;
     background-color: azure;
 }
 .keyboard {
     position: fixed;
-    
     bottom: 10px;
     width: 1100px;
     padding: 5px 0;
-    background: #004134;
+    background: #001f41;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     user-select: none;
     transition: bottom 0.4s;
@@ -34,10 +32,11 @@
     text-align: center;
     /*display: grid;
     grid-template-columns: repeat(14, 1fr);
-    grid-auto-rows: repeat(5, 1fr);*/
-    
+    grid-auto-rows: repeat(5, 1fr);*/    
 }
-
+.active{
+    background-color: #08ff00;
+}
 .keyboard__key {
     height: 45px;
     width: 6%;
@@ -57,16 +56,17 @@
     padding: 0;
     -webkit-tap-highlight-color: transparent;
     position: relative;
+    box-shadow: -3px 3px aquamarine, -2px 2px aquamarine, -1px 1px aquamarine;
+    border: 1px solid aquamarine;
 }
 
 .keyboard__key:active {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(94, 194, 189, 0.49);
 }
 
 .keyboard__key--wide {
     width: 20%;
     background: rgba(144, 143, 143, 0.2);
-
 }
 
 .keyboard__key--extra-wide {
@@ -93,4 +93,3 @@
 .keyboard__key--dark {
     background: rgba(0, 0, 0, 0.25);
 }
-
