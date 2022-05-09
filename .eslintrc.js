@@ -18,6 +18,8 @@ module.exports = {
     'no-shadow': 'off',
     'spaced-comment': 'off',
     'no-empty': 'off',
+    'no-plusplus': 'off',
+    'no-console': 'off',
 
   },
     
